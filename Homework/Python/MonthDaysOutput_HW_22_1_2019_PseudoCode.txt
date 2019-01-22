@@ -1,0 +1,62 @@
+// Pseudo Code using IF statement
+
+INPUT month_name
+IF month_name == "jan"
+    THEN
+        OUTPUT "January has 31 days."
+ELSE IF month_name == "feb"
+    THEN
+        OUTPUT "February has 28 days."
+ELSE IF month_name == "mar"
+    THEN
+        OUTPUT "March has 31 days."
+ELSE IF month_name == "apr"
+    THEN
+        OUTPUT "April has 30 days."
+ELSE IF month_name == "may"
+    THEN
+        OUTPUT "May has 31 days."
+ELSE IF month_name == "jun"
+    THEN
+        OUTPUT "June has 30 days"
+ELSE IF month_name == "jul"
+    THEN
+        OUTPUT "July has 31 days"
+ELSE IF month_name == "aug"
+    THEN
+        OUTPUT "August has 31 days"
+ELSE IF month_name == "sep"
+    THEN
+        OUTPUT "September has 30 days"
+ELSE IF month_name == "oct"
+    THEN
+        OUTPUT "October has 31 days"
+ELSE IF month_name == "nov"
+    THEN
+        OUTPUT "November has 30 days"
+ELSE IF month_name == "dec"
+    THEN
+        OUTPUT "December has 31 days"
+ELSE
+    OUTPUT "Check your input. Cannot find the corresponding month."
+ENDIF
+
+//Pseudocode using CASE statement
+
+INPUT month_name
+CASE month_name OF
+    "jan" : OUTPUT "January has 31 days."
+    "feb" : OUTPUT "February has 28 days."
+    "mar" : OUTPUT "March has 31 days."
+    "apr" : OUTPUT "April has 30 days."
+    "may" : OUTPUT "May has 31 days."
+    "jun" : OUTPUT "June has 30 days."
+    "jul" : OUTPUT "July has 31 days."
+    "aug" : OUTPUT "August has 31 days."
+    "sep" : OUTPUT "September has 30 days."
+    "oct" : OUTPUT "October has 31 days."
+    "nov" : OUTPUT "November has 30 days."
+    "dec" : OUTPUT "December has 31 days."
+OTHERWISE
+    OUTPUT "Check your input. Cannot find the corresponding month."
+ENDCASE
