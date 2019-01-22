@@ -1,0 +1,6 @@
+﻿  MonthOutput.cpp
+  正在生成代码
+c:\users\wrigh\source\repos\igcse_ict_homework\igcse_ict_homework\monthoutput.cpp(14): warning C4715: “index”: 不是所有的控件路径都返回值
+  All 138 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  IGCSE_ICT_HOMEWORK.vcxproj -> C:\Users\wrigh\source\repos\IGCSE_ICT_HOMEWORK\Release\MonthOutput.exe

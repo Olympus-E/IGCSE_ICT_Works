@@ -1,0 +1,3 @@
+INPUT num
+IF num == 0 THEN
+	OUTPUT "You've entered a zero"
